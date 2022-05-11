@@ -1,4 +1,4 @@
-Arquivo ensinando a usar o Git
+#Arquivo ensinando a usar o Git
 
 ---------------------------------------------------------------------------------------
 git init {Cria um novo subdiretório chamado .git que contem todos os arquivos necessários de seu repositório}
