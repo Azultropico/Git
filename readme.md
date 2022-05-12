@@ -1,6 +1,7 @@
-# Arquivo ensinando a usar o Git
+# Comandos Git
 
 ---------------------------------------------------------------------------------------
+# passo a passo
 git init {Cria um novo subdiretório chamado .git que contem todos os arquivos necessários de seu repositório}
 git remote add origin (Link do repositório remoto)
 git add "nomedoarquivo" {adiciona um arquivo específico }
@@ -10,13 +11,17 @@ git branch -M main (ou master) {}
 git push -u origin main
 
 ---------------------------------------------------------------------------------------
+# branch
 git checkout -b "nome" {cria uma branch e muda de lugar para ela}
 git checkout main (ou master) {volta para branch principal}
 git merge "nome" {junta a branch com a principal}
 
 ---------------------------------------------------------------------------------------
+# clonar e atualizar repositório local
 git clone(link) {clona uma repositório existente}
 git pull origin (nome branch) {atualiza repositório}
+
 ---------------------------------------------------------------------------------------
+
 git diff {mostra as linhas exatas que foram adicionadas e removidas}
 git help {comando}
